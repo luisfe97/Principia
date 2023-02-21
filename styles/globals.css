@@ -66,7 +66,7 @@ a {
   font-weight: bolder;
 }
 @media (max-width: 768px) {
-  .hbuton {
+  #header .hbuton {
     display: none;
   }
 }
