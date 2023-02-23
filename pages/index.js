@@ -54,7 +54,7 @@ export default function Home() {
                 <div className="carousel-inner">
                   <div className="carousel-item active cart-img">
                     <img
-                      src="casas-de-lujo.jpg"
+                      src="../casas-de-lujo.JPG"
                       className="d-block w-100"
                       alt="..."
                     />
@@ -68,7 +68,7 @@ export default function Home() {
                   </div>
                   <div className="carousel-item cart-img">
                     <img
-                      src="casas-de-lujo.jpg"
+                      src="../casas-de-lujo.JPG"
                       className="d-block w-100"
                       alt="..."
                     />
