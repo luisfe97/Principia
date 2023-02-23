@@ -2,7 +2,6 @@ import Image from "next/image";
 import Header from "../components/Header";
 import Head from "next/head";
 import Iconos from "../components/Iconos";
-import carru from "../public/carru.PNG"
 
 export default function Home() {
   return (
@@ -316,7 +315,7 @@ export default function Home() {
           <div id="carousel">
             <div className="prevLeftSecond">
             <Image
-                    src={carru}
+                    src={"/static/carru.PNG"}
                     alt="Sunset"
                     width={200}
                     height={100}
@@ -325,7 +324,7 @@ export default function Home() {
             </div>
             <div className="prev">
             <Image
-                   src={carru}
+                    src={"/../static/carru.PNG"}
                     alt="Sunset"
                     width={200}
                     height={100}
@@ -334,7 +333,7 @@ export default function Home() {
             </div>
             <div className="selected">
                   <Image
-                    src={carru}
+                    src={"/../static/carru.PNG"}
                     alt="Sunset"
                     width={200}
                     height={100}
@@ -343,7 +342,7 @@ export default function Home() {
             </div>
             <div className="next">
             <Image
-                    src={carru}
+                    src={"/../static/carru.PNG"}
                     alt="Sunset"
                     width={200}
                     height={100}
@@ -352,7 +351,7 @@ export default function Home() {
             </div>
             <div className="nextRightSecond">
             <Image
-                   src={carru}
+                    src={"/../static/carru.PNG"}
                     width={200}
                     height={100}
                     className={'img'}
