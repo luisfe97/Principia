@@ -315,7 +315,7 @@ export default function Home() {
           <div id="carousel">
             <div className="prevLeftSecond">
             <Image
-                    src={"/static/carru.PNG"}
+                    src={"/../static/carru.PNG"}
                     alt="Sunset"
                     width={200}
                     height={100}
@@ -324,7 +324,7 @@ export default function Home() {
             </div>
             <div className="prev">
             <Image
-                    src={"/static/carru.PNG"}
+                    src={"/../static/carru.PNG"}
                     alt="Sunset"
                     width={200}
                     height={100}
@@ -333,7 +333,7 @@ export default function Home() {
             </div>
             <div className="selected">
                   <Image
-                    src={"/static/carru.PNG"}
+                    src={"/../static/carru.PNG"}
                     alt="Sunset"
                     width={200}
                     height={100}
@@ -342,7 +342,7 @@ export default function Home() {
             </div>
             <div className="next">
             <Image
-                    src={"/static/carru.PNG"}
+                    src={"/../static/carru.PNG"}
                     alt="Sunset"
                     width={200}
                     height={100}
@@ -351,7 +351,7 @@ export default function Home() {
             </div>
             <div className="nextRightSecond">
             <Image
-                    src={"/static/carru.PNG"}
+                    src={"/../static/carru.PNG"}
                     width={200}
                     height={100}
                     className={'img'}
