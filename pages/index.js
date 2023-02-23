@@ -53,10 +53,12 @@ export default function Home() {
                 </div>
                 <div className="carousel-inner">
                   <div className="carousel-item active cart-img">
-                    <img
-                      src="../casas-de-lujo.JPG"
-                      className="d-block w-100"
-                      alt="..."
+                    <Image
+                      src={"/./static/casas-de-lujo.jpg"}
+                      alt="Sunset"
+                      width={200}
+                      height={100}
+                      className={"d-block w-100"}
                     />
                     <div className="carousel-caption d-none d-md-block">
                       <h5>BENEFICIOS</h5>
@@ -67,10 +69,12 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="carousel-item cart-img">
-                    <img
-                      src="../casas-de-lujo.JPG"
-                      className="d-block w-100"
-                      alt="..."
+                    <Image
+                      src={"/./static/casas-de-lujo.jpg"}
+                      alt="Sunset"
+                      width={200}
+                      height={100}
+                      className={"d-block w-100"}
                     />
                     <div className="carousel-caption d-none d-md-block">
                       <h5>BENEFICIOS2</h5>
@@ -118,17 +122,13 @@ export default function Home() {
                     <div className="carousel-item active cart-slider">
                       <div className="container-fluid">
                         <h5>BENEFICIOS</h5>
-                        <p>
-                          Invierte Desde USD 500
-                        </p>
+                        <p>Invierte Desde USD 500</p>
                       </div>
                     </div>
                     <div className="carousel-item cart-slider">
                       <div className="container-fluid">
                         <h5>BENEFICIOS 2</h5>
-                        <p>
-                        Invierte Desde USD 500
-                        </p>
+                        <p>Invierte Desde USD 500</p>
                       </div>
                     </div>
                   </div>
@@ -151,8 +151,8 @@ export default function Home() {
                     TU
                   </h2>
                   <button className="hbuton" type="button">
-                LOG IN
-              </button>
+                    LOG IN
+                  </button>
                 </div>
               </div>
             </div>
@@ -314,48 +314,48 @@ export default function Home() {
         <div className="row d-flex">
           <div id="carousel">
             <div className="prevLeftSecond">
-            <Image
-                    src={"/./static/carru.PNG"}
-                    alt="Sunset"
-                    width={200}
-                    height={100}
-                    className={'img'}
-                  />
+              <Image
+                src={"/./static/carru.PNG"}
+                alt="Sunset"
+                width={200}
+                height={100}
+                className={"img"}
+              />
             </div>
             <div className="prev">
-            <Image
-                    src={"/./static/carru.PNG"}
-                    alt="Sunset"
-                    width={200}
-                    height={100}
-                    className={'img'}
-                  />
+              <Image
+                src={"/./static/carru.PNG"}
+                alt="Sunset"
+                width={200}
+                height={100}
+                className={"img"}
+              />
             </div>
             <div className="selected">
-                  <Image
-                    src={"/./static/carru.PNG"}
-                    alt="Sunset"
-                    width={200}
-                    height={100}
-                    className={'img'}
-                  />
+              <Image
+                src={"/./static/carru.PNG"}
+                alt="Sunset"
+                width={200}
+                height={100}
+                className={"img"}
+              />
             </div>
             <div className="next">
-            <Image
-                    src={"/./static/carru.PNG"}
-                    alt="Sunset"
-                    width={200}
-                    height={100}
-                    className={'img'}
-                  />
+              <Image
+                src={"/./static/carru.PNG"}
+                alt="Sunset"
+                width={200}
+                height={100}
+                className={"img"}
+              />
             </div>
             <div className="nextRightSecond">
-            <Image
-                    src={"/./static/carru.PNG"}
-                    width={200}
-                    height={100}
-                    className={'img'}
-                  />
+              <Image
+                src={"/./static/carru.PNG"}
+                width={200}
+                height={100}
+                className={"img"}
+              />
             </div>
           </div>
         </div>

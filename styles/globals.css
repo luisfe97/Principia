@@ -66,7 +66,7 @@ a {
   font-weight: bolder;
 }
 @media (max-width: 768px) {
-  .hbuton {
+  #header .hbuton {
     display: none;
   }
 }
@@ -511,6 +511,11 @@ align-self: flex-end;
   font-weight: bold;
   margin-bottom: 5%;
 }
+.wrap {
+  perspective: 800px;
+  perspective-origin: 50% 100px;
+}
+
 
 .counts {
   padding: 5%;
@@ -921,3 +926,77 @@ video {
 #contact .php-email-form button[type="submit"]:hover {
   background-color: #ff8383;
 }
+/*---------------MARKET------------------*/
+#market {
+  width: 100%;
+  height: min-content;
+  background-color: #c7d2d2;
+  margin-left:20px ;
+  margin-right:20px ;
+}
+.container-market{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 700px;
+  background-color: #c7d2d2;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.404),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+  padding: 10%;
+}
+#footer{
+  width: 100%;
+  height: min-content;
+  background-color: #c7d2d2;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+.fbutton{
+  border: 2px solid #00eeff;
+  background: transparent;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: inset 0 0 0 1px #00eeff,
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.fbutton i{
+  color: #00eeff;
+}
+/*------sidebar-------------*/
+.container-section{
+  background-color: #c7d2d2;
+  padding: 10px;
+
+}
+#sidebar-container{
+  max-height: 700px;
+  border-radius: 50px;
+  background-color:#033030;
+}
+#sidebar-container .menu{
+  width: 6rem;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#sidebar-container .menu a{
+  color: white;
+  cursor: pointer;
+}
+
+#sidebar-container ul li a {
+  display:block;
+  text-align: center;
+ }
+#sidebar-container ul li a:focus {
+  border: 3px solid #00eeff;
+  border-radius: 50%;
+  padding: 8px;
+ }
