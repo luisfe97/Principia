@@ -325,7 +325,7 @@ export default function Home() {
             </div>
             <div className="prev">
             <Image
-                    src={carru}
+                   src={carru}
                     alt="Sunset"
                     width={200}
                     height={100}
@@ -352,7 +352,7 @@ export default function Home() {
             </div>
             <div className="nextRightSecond">
             <Image
-                    src={carru}
+                   src={carru}
                     width={200}
                     height={100}
                     className={'img'}
