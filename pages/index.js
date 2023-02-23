@@ -314,19 +314,48 @@ export default function Home() {
         <div className="row d-flex">
           <div id="carousel">
             <div className="prevLeftSecond">
-              <img src="https://i1.sndcdn.com/artworks-000185743981-tuesoj-t500x500.jpg" />
+            <Image
+                    src="/carru.PNG"
+                    alt="Sunset"
+                    width={200}
+                    height={100}
+                    className={'img'}
+                  />
             </div>
             <div className="prev">
-              <img src="https://i1.sndcdn.com/artworks-000158708482-k160g1-t500x500.jpg" />
+            <Image
+                    src="/carru.PNG"
+                    alt="Sunset"
+                    width={200}
+                    height={100}
+                    className={'img'}
+                  />
             </div>
             <div className="selected">
-            <img src="\carru.PNG" />
+                  <Image
+                    src="/carru.PNG"
+                    alt="Sunset"
+                    width={200}
+                    height={100}
+                    className={'img'}
+                  />
             </div>
             <div className="next">
-              <img src="https://i1.sndcdn.com/artworks-000028787381-1vad7y-t500x500.jpg" />
+            <Image
+                    src="/carru.PNG"
+                    alt="Sunset"
+                    width={200}
+                    height={100}
+                    className={'img'}
+                  />
             </div>
             <div className="nextRightSecond">
-              <img src="https://i1.sndcdn.com/artworks-000108468163-dp0b6y-t500x500.jpg" />
+            <Image
+                    src="/carru.PNG"
+                    width={200}
+                    height={100}
+                    className={'img'}
+                  />
             </div>
           </div>
         </div>
