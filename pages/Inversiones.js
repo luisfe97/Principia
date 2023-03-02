@@ -3,7 +3,7 @@ import Container from "../components/Container";
 import Head from "next/head";
 import Iconos from "../components/Iconos";
 
-export default function Market() {
+export default function Inversiones() {
   return (
     <>
       <Head>
@@ -24,7 +24,7 @@ export default function Market() {
             <div className="row">
               <div className="filtros">
                 <div className="row">
-                  <div className="col-lg-2 ml-4">
+                  <div className="col-lg-2 col-md-10 ml-4">
                     <div className="dropdown">
                       <button
                         className="btn btn-secondary dropdown-toggle"
@@ -34,7 +34,32 @@ export default function Market() {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                       <span> MOSTRAR ESTADO</span>
+                        MOSTRAR ESTADO
+                      </button>
+                      <div
+                        className="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <a className="dropdown-item" href="#">
+                          Abierto
+                        </a>
+                        <a className="dropdown-item" href="#">
+                          Cerrado
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-2 col-md-10 ml-4">
+                    <div className="dropdown">
+                      <button
+                        className="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        ORDENAR POR
                       </button>
                       <div
                         className="dropdown-menu"
@@ -52,36 +77,8 @@ export default function Market() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-2 ml-4">
-                    <div className="dropdown">
-                      <button
-                        className="btn btn-secondary dropdown-toggle"
-                        type="button"
-                        id="dropdownMenuButton"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        <span>ORDENAR POR</span>
-                      </button>
-                      <div
-                        className="dropdown-menu"
-                        aria-labelledby="dropdownMenuButton"
-                      >
-                        <a className="dropdown-item" href="#">
-                          Action
-                        </a>
-                        <a className="dropdown-item" href="#">
-                          Another action
-                        </a>
-                        <a className="dropdown-item" href="#">
-                          Something else here
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-8 ml-4">
-                    <div className="input-group flex-nowrap">
+                  <div className="col-lg-8 col-md-10 ml-4">
+                    <div className="input-group">
                       <div className="input-group-prepend">
                         <span className="input-group-text" id="addon-wrapping">
                           <i className="bi bi-search"></i>
@@ -100,33 +97,9 @@ export default function Market() {
               </div>
             </div>
 
-            <div className="row d-flex container-img mt-5">
-              <div className="col-lg-4 col-md-5 col-sm-5 mb-3">
-                <Image
-                  src={"/./static/carru.PNG"}
-                  alt="Sunset"
-                  width={200}
-                  height={100}
-                  className={"img"}
-                />
-              </div>
-              <div className="col-lg-4 col-md-5 col-sm-5 mb-3">
-                <Image
-                  src={"/./static/carru.PNG"}
-                  alt="Sunset"
-                  width={200}
-                  height={100}
-                  className={"img"}
-                />
-              </div>
-              <div className="col-lg-4 col-md-5 col-sm-5 mb-3">
-                <Image
-                  src={"/./static/carru.PNG"}
-                  alt="Sunset"
-                  width={200}
-                  height={100}
-                  className={"img"}
-                />
+            <div className="row ">
+              <div className="default-container">
+                <h2>AUN NO TIENES INVERSIONES</h2>
               </div>
             </div>
           </div>

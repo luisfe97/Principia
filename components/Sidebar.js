@@ -7,16 +7,27 @@ export default function Sidebar() {
         <ul className="menu navbar-nav ">
           <div className=" align-items-center mt-5 justify-content-center">
             <li className="nav-link">
-              <a href="#1">
-                <i className="bi bi-grid-3x3-gap d-block"></i>
-              </a>
+              <Link href="/Market" passHref legacyBehavior>
+                <a href="">
+                  <i className="bi bi-grid-3x3-gap d-block"></i>
+                </a>
+              </Link>
             </li>
-            <li className="nav-link"> 
-              <a href="#2">
-                <i className="bi bi-file-bar-graph d-block "></i>
-              </a>
+            <li className="nav-link">
+              <Link href="/Inversiones" passHref legacyBehavior>
+                <a href="">
+                  <i className="bi bi-file-bar-graph d-block "></i>
+                </a>
+              </Link>
             </li>
-            <li className="nav-link"> 
+            <li className="nav-link">
+              <Link href="/Settings" passHref legacyBehavior>
+                <a href=" ">
+                  <i className="bi bi-gear d-block"></i>
+                </a>
+              </Link>
+            </li>
+            <li className="nav-link">
               <a href="#3">
                 <i className="bi bi-info-square d-block"></i>
               </a>
@@ -24,11 +35,6 @@ export default function Sidebar() {
             <li className="nav-link">
               <a href="#4">
                 <i className="bi bi-calendar-check d-block"></i>
-              </a>
-            </li>
-            <li className="nav-link">
-              <a href="#5">
-                <i className="bi bi-gear d-block"></i>
               </a>
             </li>
           </div>

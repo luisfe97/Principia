@@ -15,8 +15,8 @@ export default function HeaderMarket() {
               <button className="hbuton" type="button">
                 WALLET
               </button>
-              <a href="#" className="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2"/>
+              <a href="" className="d-flex align-items-center text-white text-decoration-none dropdown-toggle">
+                <img src="https://github.com/mdo.png" alt="" width="32" height="32" className="rounded-circle me-2"/>
               </a>
             </div>
           </nav>

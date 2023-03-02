@@ -1,4 +1,3 @@
-import { Button } from "bootstrap";
 import HeaderMarket from "./HeaderMarket";
 import Sidebar from "./Sidebar";
 
@@ -16,7 +15,7 @@ const Container = (props) => {
           © 2023 PRINCIPIA
         </div>
         <div className="text-center p-3">
-          <button className="fbutton">¿NECESITAS AYUDA? <i class="bi bi-chat-dots"></i></button>
+          <button className="fbutton">¿NECESITAS AYUDA? <i className="bi bi-chat-dots"></i></button>
         </div>
         {/* Copyright */}
       </footer>

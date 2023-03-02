@@ -352,6 +352,7 @@ export default function Home() {
             <div className="nextRightSecond">
               <Image
                 src={"/./static/carru.PNG"}
+                alt="Sunset"
                 width={200}
                 height={100}
                 className={"img"}
